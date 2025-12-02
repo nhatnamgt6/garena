@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GarenaFrondEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27093856f35b66363c43a48a27897cf1d5475d82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6c26faf23dc77f5517a8290bf73ace3fadc6e81")]
 [assembly: System.Reflection.AssemblyProductAttribute("GarenaFrondEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GarenaFrondEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,36 +1,28 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add Razor Pages
 builder.Services.AddRazorPages();
 
-// Đăng ký HttpClient để gọi API backend
+// API backend URL (Render sẽ đọc từ ENV)
+var apiBaseUrl = Environment.GetEnvironmentVariable("API_BASE_URL")
+                ?? "https://your-railway-api-url.up.railway.app/";
+
+// Đăng ký HttpClient để gọi API
 builder.Services.AddHttpClient("ApiClient", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7086/"); // backend API base
+    client.BaseAddress = new Uri(apiBaseUrl);
 });
-
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-
-app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapRazorPages();
 
-// ép mở trang gốc "/" về Login
+// ép mở trang "/" về "/Index"
 app.MapGet("/", context =>
 {
     context.Response.Redirect("/Index");
