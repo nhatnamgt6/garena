@@ -1,0 +1,37 @@
+﻿@page
+@model GarenaFrondEnd.Pages.LoginModel
+@{
+    ViewData["Title"] = "Đăng nhap";
+}
+
+<div class="login-container">
+    <div class="login-box">
+        <h2 class="login-title">Đăng nhập</h2>
+
+        <form method="post">
+            <div class="form-group">
+                <input asp-for="Login.UserName" class="form-control" placeholder="Tài khoản Garena, Email hoặc số điện thoại" autocomplete="username" />
+                <span asp-validation-for="Login.UserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="Login.Password" type="password" class="form-control" placeholder="Mật khẩu" autocomplete="current-password" />
+                <span asp-validation-for="Login.Password" class="text-danger"></span>
+            </div>
+
+            <div class="text-right mb-3">
+                <a href="https://account.garena.com/recovery" class="forgot-link">Quên mật khẩu?</a>
+            </div>
+
+            <button type="submit" class="btn-login">Đăng Nhập Ngay</button>
+            <a asp-page="/Register" class="btn-register">Tạo tài khoản mới</a>
+
+            <div class="policy-links">
+                <a href="https://contentgarena-a.akamaihd.net/legal/tos/tos_vn.html">Điều Khoản Dịch Vụ</a> và
+                <a href="https://contentgarena-a.akamaihd.net/legal/pp/pp_vn.html">Chính Sách Bảo Mật</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+

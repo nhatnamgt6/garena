@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Garena2.props" />
+</Project>

@@ -1,0 +1,29 @@
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\nhatn\Desktop\Code\Garena2\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\nhatn\Desktop\ky 7\Code\Garena2\DAL\obj\Debug\net8.0\DAL.sourcelink.json
