@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nhatn\\Desktop\\ky 7\\Code\\Garena2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06CDBC95-6DFC-430C-BA88-EF0032D00112}|Garena2\\Garena2.csproj|c:\\users\\nhatn\\desktop\\ky 7\\code\\garena2\\garena2\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06CDBC95-6DFC-430C-BA88-EF0032D00112}|Garena2\\Garena2.csproj|solutionrelative:garena2\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\nhatn\\Desktop\\ky 7\\Code\\Garena2\\Garena2\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Garena2\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\nhatn\\Desktop\\ky 7\\Code\\Garena2\\Garena2\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Garena2\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:45:04.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
