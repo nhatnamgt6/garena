@@ -13,14 +13,12 @@ namespace Garena2
 
             var builder = WebApplication.CreateBuilder(args);
 
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+                         ?? Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
 
             builder.Services.AddDbContext<GarenaContext>(options =>
-              options.UseMySql(
-              connectionString,
-              ServerVersion.AutoDetect(connectionString)   // Auto detect phiên bản MySQL
-          )
-      );
+                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
 
 
             builder.Services.AddScoped<RegisterInterface, RegisterService>();
